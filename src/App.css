@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+.dx-toolbar {
+  background-color: rgba(191, 191, 191, 0.15) !important;
+  padding: 5px 10px;
+}
+
+.dx-list-item-icon-container,
+.dx-toolbar-before {
+  width: 36px;
+  padding-right: 0px !important;
+  text-align: center;
+}
+
+.dx-list-item-content {
+  padding-left: 10px !important;
+}
+
+.dx-button {
+  background-color: rgba(191, 191, 191, -0.15);
+  border: none;
+}
+
+.panel-list {
+  height: 400px;
+}
+
+.dx-drawer-expand.dx-drawer-right .panel-list {
+  float: right;
+}
+
+.panel-list .dx-list-item {
+  color: #fff;
+  border-top: 1px solid rgba(221, 221, 221, 0.2);
+}
+
+.panel-list .dx-list-item .dx-icon {
+  color: #fff !important;
+}
+
+.options {
+  padding: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+}
+
+.caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.option {
+  margin-top: 10px;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+label {
+  font-weight: bold;
+}
+#content {
+  height: 100%;
+  padding: 10px 20px;
+}
+
+#content h2 {
+  font-size: 26px;
+}
