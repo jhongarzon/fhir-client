@@ -11,6 +11,7 @@ import Menu from "./main/Menu";
 import Toolbar from "devextreme-react/toolbar";
 import SchedulerComponent from "./main/Scheduler/components/Scheduler";
 import MultipleCharts from "./main/Charts/components/Overview";
+import AdvancedScheduler from "./main/Scheduler/components/AdvancedScheduler";
 
 const DrawerWithRouter = withRouter(Drawer);
 
@@ -43,6 +44,8 @@ function App() {
             <Route path="/practitioners" component={PractitionerList} />
             <Route path="/scheduler" component={SchedulerComponent} />
             <Route path="/charts" component={MultipleCharts} />
+            <Route path="/advanced" component={AdvancedScheduler} />
+            
           </div>
         </DrawerWithRouter>
       </BrowserRouter>

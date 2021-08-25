@@ -8,8 +8,9 @@ const Menu: FC = () => {
     { id: 1, text: "Patients", icon: "product", route: "/patients" },
     { id: 2, text: "Practitioneers", icon: "money", route: "/practitioners" },
     { id: 3, text: "Scheduler", icon: "group", route: "/scheduler" },
-    { id: 4, text: "Users", icon: "card", route: "" },
+    { id: 4, text: "Advanced Scheduler", icon: "chart", route: "/advanced" }, 
     { id: 5, text: "Reports", icon: "chart", route: "/charts" },
+    
   ];
 
   return (
